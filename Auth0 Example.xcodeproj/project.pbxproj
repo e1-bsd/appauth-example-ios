@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45226BFF1FCFEC09005440EE /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45226BFE1FCFEC09005440EE /* Auth0.plist */; };
+		45501DD91FCFD68400FC193B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45501DD81FCFD68400FC193B /* AppDelegate.swift */; };
+		45501DDB1FCFD68400FC193B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45501DDA1FCFD68400FC193B /* HomeViewController.swift */; };
+		45501DDE1FCFD68400FC193B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45501DDC1FCFD68400FC193B /* Main.storyboard */; };
+		45501DE01FCFD68400FC193B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45501DDF1FCFD68400FC193B /* Assets.xcassets */; };
+		45501DE31FCFD68400FC193B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45501DE11FCFD68400FC193B /* LaunchScreen.storyboard */; };
+		45501DEE1FCFD68400FC193B /* Auth0_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45501DED1FCFD68400FC193B /* Auth0_ExampleTests.swift */; };
+		45501DF91FCFD68400FC193B /* Auth0_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45501DF81FCFD68400FC193B /* Auth0_ExampleUITests.swift */; };
+		84991BA1ECED0571BA92A2B6 /* Pods_Auth0_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36D6BF9055A42B571429CF7 /* Pods_Auth0_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45501DEA1FCFD68400FC193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45501DCD1FCFD68400FC193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45501DD41FCFD68400FC193B;
+			remoteInfo = "Auth0 Example";
+		};
+		45501DF51FCFD68400FC193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45501DCD1FCFD68400FC193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45501DD41FCFD68400FC193B;
+			remoteInfo = "Auth0 Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D1536D59C9FF31FBFA8EBA /* Pods-Auth0 Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth0 Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auth0 Example/Pods-Auth0 Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBDEA45CF546E9AD397380B /* Pods-Auth0 Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth0 Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auth0 Example/Pods-Auth0 Example.release.xcconfig"; sourceTree = "<group>"; };
+		45226BFE1FCFEC09005440EE /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		45501DD51FCFD68400FC193B /* Auth0 Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auth0 Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45501DD81FCFD68400FC193B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45501DDA1FCFD68400FC193B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45501DDD1FCFD68400FC193B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45501DDF1FCFD68400FC193B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45501DE21FCFD68400FC193B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45501DE41FCFD68400FC193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45501DE91FCFD68400FC193B /* Auth0 ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auth0 ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45501DED1FCFD68400FC193B /* Auth0_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0_ExampleTests.swift; sourceTree = "<group>"; };
+		45501DEF1FCFD68400FC193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45501DF41FCFD68400FC193B /* Auth0 ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auth0 ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45501DF81FCFD68400FC193B /* Auth0_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0_ExampleUITests.swift; sourceTree = "<group>"; };
+		45501DFA1FCFD68400FC193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36D6BF9055A42B571429CF7 /* Pods_Auth0_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth0_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45501DD21FCFD68400FC193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84991BA1ECED0571BA92A2B6 /* Pods_Auth0_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DE61FCFD68400FC193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DF11FCFD68400FC193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45501DCC1FCFD68400FC193B = {
+			isa = PBXGroup;
+			children = (
+				45501DD71FCFD68400FC193B /* Auth0 Example */,
+				45501DEC1FCFD68400FC193B /* Auth0 ExampleTests */,
+				45501DF71FCFD68400FC193B /* Auth0 ExampleUITests */,
+				45501DD61FCFD68400FC193B /* Products */,
+				53E6D7C2FD0A223FF56C4E0D /* Pods */,
+				F0C53B7AE042DF54815DFB0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45501DD61FCFD68400FC193B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45501DD51FCFD68400FC193B /* Auth0 Example.app */,
+				45501DE91FCFD68400FC193B /* Auth0 ExampleTests.xctest */,
+				45501DF41FCFD68400FC193B /* Auth0 ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45501DD71FCFD68400FC193B /* Auth0 Example */ = {
+			isa = PBXGroup;
+			children = (
+				45501DD81FCFD68400FC193B /* AppDelegate.swift */,
+				45501DDA1FCFD68400FC193B /* HomeViewController.swift */,
+				45501DDC1FCFD68400FC193B /* Main.storyboard */,
+				45501DDF1FCFD68400FC193B /* Assets.xcassets */,
+				45501DE11FCFD68400FC193B /* LaunchScreen.storyboard */,
+				45501DE41FCFD68400FC193B /* Info.plist */,
+				45226BFE1FCFEC09005440EE /* Auth0.plist */,
+			);
+			path = "Auth0 Example";
+			sourceTree = "<group>";
+		};
+		45501DEC1FCFD68400FC193B /* Auth0 ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				45501DED1FCFD68400FC193B /* Auth0_ExampleTests.swift */,
+				45501DEF1FCFD68400FC193B /* Info.plist */,
+			);
+			path = "Auth0 ExampleTests";
+			sourceTree = "<group>";
+		};
+		45501DF71FCFD68400FC193B /* Auth0 ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45501DF81FCFD68400FC193B /* Auth0_ExampleUITests.swift */,
+				45501DFA1FCFD68400FC193B /* Info.plist */,
+			);
+			path = "Auth0 ExampleUITests";
+			sourceTree = "<group>";
+		};
+		53E6D7C2FD0A223FF56C4E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07D1536D59C9FF31FBFA8EBA /* Pods-Auth0 Example.debug.xcconfig */,
+				1DBDEA45CF546E9AD397380B /* Pods-Auth0 Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0C53B7AE042DF54815DFB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36D6BF9055A42B571429CF7 /* Pods_Auth0_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45501DD41FCFD68400FC193B /* Auth0 Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45501DFD1FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 Example" */;
+			buildPhases = (
+				C0AA68500117C8175CB55861 /* [CP] Check Pods Manifest.lock */,
+				45501DD11FCFD68400FC193B /* Sources */,
+				45501DD21FCFD68400FC193B /* Frameworks */,
+				45501DD31FCFD68400FC193B /* Resources */,
+				E2DCED28D14ECBC2B416BBD0 /* [CP] Embed Pods Frameworks */,
+				FE7F4E424CCCE5E3C1DCAA37 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auth0 Example";
+			productName = "Auth0 Example";
+			productReference = 45501DD51FCFD68400FC193B /* Auth0 Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45501DE81FCFD68400FC193B /* Auth0 ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45501E001FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 ExampleTests" */;
+			buildPhases = (
+				45501DE51FCFD68400FC193B /* Sources */,
+				45501DE61FCFD68400FC193B /* Frameworks */,
+				45501DE71FCFD68400FC193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45501DEB1FCFD68400FC193B /* PBXTargetDependency */,
+			);
+			name = "Auth0 ExampleTests";
+			productName = "Auth0 ExampleTests";
+			productReference = 45501DE91FCFD68400FC193B /* Auth0 ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45501DF31FCFD68400FC193B /* Auth0 ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45501E031FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 ExampleUITests" */;
+			buildPhases = (
+				45501DF01FCFD68400FC193B /* Sources */,
+				45501DF11FCFD68400FC193B /* Frameworks */,
+				45501DF21FCFD68400FC193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45501DF61FCFD68400FC193B /* PBXTargetDependency */,
+			);
+			name = "Auth0 ExampleUITests";
+			productName = "Auth0 ExampleUITests";
+			productReference = 45501DF41FCFD68400FC193B /* Auth0 ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45501DCD1FCFD68400FC193B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = EF;
+				TargetAttributes = {
+					45501DD41FCFD68400FC193B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					45501DE81FCFD68400FC193B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45501DD41FCFD68400FC193B;
+					};
+					45501DF31FCFD68400FC193B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45501DD41FCFD68400FC193B;
+					};
+				};
+			};
+			buildConfigurationList = 45501DD01FCFD68400FC193B /* Build configuration list for PBXProject "Auth0 Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45501DCC1FCFD68400FC193B;
+			productRefGroup = 45501DD61FCFD68400FC193B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45501DD41FCFD68400FC193B /* Auth0 Example */,
+				45501DE81FCFD68400FC193B /* Auth0 ExampleTests */,
+				45501DF31FCFD68400FC193B /* Auth0 ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45501DD31FCFD68400FC193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501DE31FCFD68400FC193B /* LaunchScreen.storyboard in Resources */,
+				45501DE01FCFD68400FC193B /* Assets.xcassets in Resources */,
+				45501DDE1FCFD68400FC193B /* Main.storyboard in Resources */,
+				45226BFF1FCFEC09005440EE /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DE71FCFD68400FC193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DF21FCFD68400FC193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0AA68500117C8175CB55861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auth0 Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DCED28D14ECBC2B416BBD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Auth0 Example/Pods-Auth0 Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auth0 Example/Pods-Auth0 Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7F4E424CCCE5E3C1DCAA37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auth0 Example/Pods-Auth0 Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45501DD11FCFD68400FC193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501DDB1FCFD68400FC193B /* HomeViewController.swift in Sources */,
+				45501DD91FCFD68400FC193B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DE51FCFD68400FC193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501DEE1FCFD68400FC193B /* Auth0_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45501DF01FCFD68400FC193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501DF91FCFD68400FC193B /* Auth0_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45501DEB1FCFD68400FC193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45501DD41FCFD68400FC193B /* Auth0 Example */;
+			targetProxy = 45501DEA1FCFD68400FC193B /* PBXContainerItemProxy */;
+		};
+		45501DF61FCFD68400FC193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45501DD41FCFD68400FC193B /* Auth0 Example */;
+			targetProxy = 45501DF51FCFD68400FC193B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45501DDC1FCFD68400FC193B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45501DDD1FCFD68400FC193B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45501DE11FCFD68400FC193B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45501DE21FCFD68400FC193B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45501DFB1FCFD68400FC193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45501DFC1FCFD68400FC193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45501DFE1FCFD68400FC193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D1536D59C9FF31FBFA8EBA /* Pods-Auth0 Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45501DFF1FCFD68400FC193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBDEA45CF546E9AD397380B /* Pods-Auth0 Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45501E011FCFD68400FC193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth0 Example.app/Auth0 Example";
+			};
+			name = Debug;
+		};
+		45501E021FCFD68400FC193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auth0 Example.app/Auth0 Example";
+			};
+			name = Release;
+		};
+		45501E041FCFD68400FC193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auth0 Example";
+			};
+			name = Debug;
+		};
+		45501E051FCFD68400FC193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Auth0 ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ef.Auth0-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auth0 Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45501DD01FCFD68400FC193B /* Build configuration list for PBXProject "Auth0 Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45501DFB1FCFD68400FC193B /* Debug */,
+				45501DFC1FCFD68400FC193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45501DFD1FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45501DFE1FCFD68400FC193B /* Debug */,
+				45501DFF1FCFD68400FC193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45501E001FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45501E011FCFD68400FC193B /* Debug */,
+				45501E021FCFD68400FC193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45501E031FCFD68400FC193B /* Build configuration list for PBXNativeTarget "Auth0 ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45501E041FCFD68400FC193B /* Debug */,
+				45501E051FCFD68400FC193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45501DCD1FCFD68400FC193B /* Project object */;
+}

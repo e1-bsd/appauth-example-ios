@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Auth0.plist
+   Auth0 Example
+
+   Created by Rubén Illodo Brea on 30/11/2017.
+   Copyright (c) 2017 EF. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>ClientId</key>
+  <string>j0J6YqCSDH5VsB6suuVcWeV9EccHc0TR</string>
+  <key>Domain</key>
+  <string>ruben-test.eu.auth0.com</string>
+    </dict>
+</plist>
